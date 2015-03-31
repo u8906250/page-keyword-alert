@@ -1,0 +1,28 @@
+#                                               -*- Autoconf -*-
+# Process this file with autoconf to produce a configure script.
+
+AC_PREREQ(2.61)
+AC_INIT(pagekeywordalert, [0.0.1], u8906250@gmail.com)
+AC_CONFIG_SRCDIR([src/winmain.c])
+AM_INIT_AUTOMAKE(pagekeywordalert, [0.0.1])
+AC_CONFIG_HEADER([config.h])
+
+if test "$COLORGCC"; then
+	CC="$COLORGCC"
+fi
+
+# Checks for programs.
+AC_PROG_CC
+AC_PROG_RANLIB
+# Checks for libraries.
+
+# Checks for header files.
+
+# Checks for typedefs, structures, and compiler characteristics.
+
+# Checks for library functions.
+
+AC_CONFIG_FILES([Makefile
+		src/Makefile])
+AC_OUTPUT
+
