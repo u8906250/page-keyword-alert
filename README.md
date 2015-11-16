@@ -1,7 +1,7 @@
 # page-keyword-alert
 alert if keyword found in a web page content
 
-改用GTK+3，第一次使用就上手，騙你的啦，先求可以用就好XD
+change to GTK+3
 
 build system: mingw32
 
